@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #38ef7d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    height: 300px;
+    width: 800px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.background-image  img{
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.formulario {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: #ffffff;
+    width: 600px;
+    height: 400px;
+    margin-top: 150px;
+    margin-left: 130px;
+    margin-right: 100px;
+    border-radius: 20px;
+}
+.formulario form {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+input {
+    font-size: 15px;
+    display: flex;
+    margin-top: 10px;
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+}
+input::placeholder {
+    font-size: 15px;
+    padding-left: 2px;
+}
+label {
+    margin-right: 30px;
+}
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #38ef7d;
+    color: #ffffff;
+    width: 300px;
+    height: 40px;
+    border: solid;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #212529;
+    color: #ffffff;
+    border: solid;
+}
+.login i, .senha i{
+    position: relative;
+    padding-left: 10px;
+    top: -28px;
+    color: #38ef7d;
+}
+input[type=text] {
+    padding-left: 20px;
+    font-size: 15px;
+}
+input[type=email] {
+    padding-left: 25px;
+    font-size: 15px;
+}
+
+input[type=password] {
+    padding-left: 25px;
+    font-size: 15px;
+}
